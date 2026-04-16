@@ -1,0 +1,52 @@
+# Dependencies
+.venv/
+env/
+venv/
+lib/
+lib64/
+
+# Jupyter Notebook Cache
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Machine Learning Weight Files & Huge Files
+*.pb
+*.onnx
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.safetensors
+*.bin
+*.caffemodel
+
+# macOS Specific
+.DS_Store
+
+# Explicitly Excluded Projects per user request
+02-ABSA-Multilingual-NLP/
